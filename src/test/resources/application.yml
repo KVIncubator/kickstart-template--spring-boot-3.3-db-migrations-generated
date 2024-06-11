@@ -1,14 +1,26 @@
+iqkv :
+  build :
+    description : '@project.description@'
+    relative-path : '/'
+    version : '@project.version@'
+
 spring :
   application :
-    name : kvmix
+    name : kvmix-ecommerce
+  devtools :
+    add-properties : false
+    restart :
+      enabled : false
+    livereload :
+      enabled : false
   liquibase :
     change-log : db/changelog/changelog.xml
   datasource :
     type : com.zaxxer.hikari.HikariDataSource
     driver-class-name : ${DATASOURCE_DRIVER:org.h2.Driver}
     url : ${DATASOURCE_URL:jdbc:h2:mem:svc_testing_db}
-    username : ${DATASOURCE_USERNAME:svc_testing}
-    password : ${DATASOURCE_PASSWORD:svc_testing}
+    username : ${DATASOURCE_USERNAME:postgres}
+    password : ${DATASOURCE_PASSWORD:postgres}
     hikari :
       pool-name : Hikari
       auto-commit : false

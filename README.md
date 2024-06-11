@@ -4,7 +4,7 @@ JWT-based Spring Security REST API.
 
 ## Technology stack
 
-java 21, Maven, Spring Boot, JPA, Security, Postgresql, Liquibase.
+java 17, Maven, Spring Boot, JPA, Security, Postgresql, Liquibase.
 
 ## Database configuration
 
