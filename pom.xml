@@ -48,7 +48,7 @@
         <maven-checkstyle-plugin.version>3.4.0</maven-checkstyle-plugin.version>
         <checkstyle.version>10.17.0</checkstyle.version>
         <nohttp-checkstyle.version>0.0.11</nohttp-checkstyle.version>
-        <maven-surefire-plugin.version>3.2.5</maven-surefire-plugin.version>
+        <maven-surefire-plugin.version>3.3.0</maven-surefire-plugin.version>
         <jacoco-maven-plugin.version>0.8.11</jacoco-maven-plugin.version>
         <start-class>com.kvmix.ecommerce.EcommerceApplication</start-class>
     </properties>
